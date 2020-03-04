@@ -19,12 +19,18 @@ body {
 .header a:hover {
     color: gray;
 }
-
+/*
+* Home
+*/
 .home-page {
     margin-top: 100px;
     font-size: 200px;
     text-align: center;
 }
+
+/*
+* Cars
+*/
 
 .table {
     margin: 100px auto;
@@ -32,10 +38,13 @@ body {
 }
 .table td {
     width: 20%;
-    border-bottom: 1px solid rgb(41, 41, 41);
+    border-bottom: 1px solid gray;
     line-height: 50px;
 }
 
+/*
+* Button
+*/
 .btn {
     border: none;
     border-radius: 4px;
@@ -43,15 +52,18 @@ body {
     font-weight: bold;
 }
 .btn-grn {
-    background-image: linear-gradient(to bottom, rgb(68, 68, 68), rgb(97, 0, 100));
+    background-image: linear-gradient(to bottom, rgb(68, 68, 68), darkgreen);
     color: white;    
 }
 
+/*
+* Modify car
+*/
 .update-section {
     width: 0;
     margin: 100px auto;
     padding: 20px;
-    background-color: rgb(220, 245, 255);
+    background-color: cornsilk;
     display: table;
 }
 .update-section label {

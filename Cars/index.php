@@ -5,7 +5,7 @@ require_once APPLICATION.'functions.php';
 
 
 $configPath = 'config.json';
-$page = @$_GET['page'] ? $_GET['page'] : 'cars';
+$page = @$_GET['page'] ? $_GET['page'] : 'home';
 
 switch ( $page )
 {
